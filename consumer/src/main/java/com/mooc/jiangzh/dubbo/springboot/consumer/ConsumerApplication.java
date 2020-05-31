@@ -17,7 +17,7 @@ public class ConsumerApplication {
 
         QuickstartConsumer quickstartConsumer = (QuickstartConsumer)run.getBean("quickstartConsumer");
 
-        quickstartConsumer.sendMessage("童鞋们都能找到一个百万年薪的工作");
+        quickstartConsumer.sendMessage("测试dubbo的consumer端消息");
 
     }
 }
